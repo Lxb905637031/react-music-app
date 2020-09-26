@@ -15,7 +15,7 @@ export default memo(function LxbAlbumCover(props) {
         >
             <div className="album-image">
                 <img src={getSizeImage(info.picUrl, 150)} alt="" />
-                <a href="/abc" className="cover sprite_02">{info.name}</a>
+                <a href="/#" className="cover sprite_02">{info.name}</a>
             </div>
             <div className="album-info">
                 <div className="name">{info.name}</div>

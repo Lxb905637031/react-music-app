@@ -21,10 +21,10 @@ export default memo(function LxbTopRanking(props) {
             <div className="header">
                 <div className="image">
                     <img src={getSizeImage(info.coverImgUrl)} alt=""/>
-                    <a href="/todo" className="image_cover">ranking</a>
+                    <a href="/#1890ff" className="image_cover">ranking</a>
                 </div>
                 <div className="info">
-                    <a href="/todo">{ info.name }</a>
+                    <a href="/#">{ info.name }</a>
                     <div>
                         <button className="btn play sprite_02"></button>
                         <button className="btn favor sprite_02"></button>
