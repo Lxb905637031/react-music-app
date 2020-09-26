@@ -29,7 +29,10 @@ export default memo(function LxbArtistCategory(props) {
                     artists.map((item, index) => {
                         const isSelect = currentArea === area && currentType.type === item.type
                         return (
-                            <CategoryItem key={item.name} className={classNames({'active': isSelect})}>
+                            <CategoryItem 
+                                key={item.name}
+                                className={classNames({'active': isSelect})}
+                            >
                                 <span onClick={e => selectArtist(area, item)}>{item.name}</span>
                             </CategoryItem>
                         )

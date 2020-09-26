@@ -17,7 +17,7 @@ export default (state = defaultState, action) => {
         case actionTypes.CHANGE_CURRENT_TYPE:
             return state.set('currentType', action.currentType)
         case actionTypes.CHANGE_ARTIST_LIST:
-            return state.set('artlistList', action.artistList)
+            return state.set('artistList', action.artistList)
         default:
             return state
     }
